@@ -24,33 +24,31 @@
     <!-- hero -->
 
         <div class="hero-section">
-            <div class="hero-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7 col-12 d-flex align-items-center">
-                            <div class="hero-head-section">
-                                <p class="sm-hero-head"><span>I</span>nterior <span>D</span>esign</p>
-                                <h3 >Explore <span>Interior</span><br> Design</h3>
-                                <p class="desc">Architecture is basically a container of something. I hope they will enjoy not so much the teacup, but the tea.</p>
-                                <a href="#" class="hero-btn">Explore More</a>
-                            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-12 d-flex align-items-center">
+                        <div class="hero-head-section">
+                            <p class="sm-hero-head"><span>I</span>nterior <span>D</span>esign</p>
+                            <h3 >Explore <span>Interior</span><br> Design</h3>
+                            <p class="desc">Architecture is basically a container of something. I hope they will enjoy not so much the teacup, but the tea.</p>
+                            <a href="#" class="hero-btn">Explore More</a>
                         </div>
-                        <div class="col-md-5 col-12">
-                            <div class="hero-right-slider">
-                                <div class="hero-slider">
-                                    <div class="d-flex justify-content-center align-items-center">
-                                        <div class="bg-slider-box">
-                                            <img src="assets/images/hero-slider/slider-1.png" class="img-fluid" alt="">
-                                            <div class="bg-slider"></div>
-                                        </div>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="hero-right-slider">
+                            <div class="hero-slider">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="bg-slider-box">
+                                        <img src="assets/images/hero-slider/slider-2.png" class="img-fluid" alt="">
+                                        <div class="bg-slider"></div>
                                     </div>
                                 </div>
-                                <div class="hero-slider">
-                                    <div class="d-flex justify-content-center align-items-center">
-                                        <div class="bg-slider-box">
-                                            <img src="assets/images/hero-slider/slider-1.png" class="img-fluid" alt="">
-                                            <div class="bg-slider"></div>
-                                        </div>
+                            </div>
+                            <div class="hero-slider">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="bg-slider-box">
+                                        <img src="assets/images/hero-slider/slider-2.png" class="img-fluid" alt="">
+                                        <div class="bg-slider"></div>
                                     </div>
                                 </div>
                             </div>
@@ -60,13 +58,17 @@
             </div>
 
         </div>
-        </div>
+    </div>
 
     <!-- hero end -->
 
-    <!--  -->
+    <!-- about section -->
 
-    <div>vv vhg</div>
+    <div class="about-section">
+        
+    </div>
+
+    <!-- about section end -->
 
 
 
@@ -80,3 +82,5 @@
     <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+

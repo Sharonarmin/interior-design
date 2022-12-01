@@ -1,4 +1,4 @@
-//testimonial slider
+//hero slider
 $('.hero-right-slider').slick({
     infinite: true,
     slidesToShow: 1,
