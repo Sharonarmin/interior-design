@@ -62,22 +62,30 @@ p{
 
 
 /* hero-section */
-
-.hero-section{
-    position: fixed;
-    top: 0;
-    left: 0;
+.main{
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+    position: relative;
+}
+
+
+.hero-section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .hero-section .hero-inner{
     height: 100%;
     display: flex;
     align-items: center;
+    padding: 40px 10px;
+
 }
 
 .sm-hero-head{
