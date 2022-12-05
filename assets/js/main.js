@@ -30,3 +30,71 @@ $('.hero-right-slider').slick({
     ]
   });
   
+
+
+// latest-project-slider
+$(document).ready(function(){
+    $('.latest-project-slider').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        autoplay:true,
+        navText: ["<i class='fa-solid fa-chevron-left'></i>", "<i class='fa-solid fa-chevron-right'></i>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1.5
+            },
+            1300:{
+                items:2.2
+            },
+            1500:{
+                items:2.5
+            }
+        }
+      })
+});
+
+
+// client slider
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  grid: {
+    rows: 3,
+  },
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+});
+
+
+// testimonial slider
+$(document).ready(function(){
+    $('.testimonial-slider').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        autoplay:true,
+        navText: ["<i class='fa-solid fa-chevron-left'></i>", "<i class='fa-solid fa-chevron-right'></i>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1.5
+            },
+            1300:{
+                items:3.5
+            },
+            1500:{
+                items:3.5
+            }
+        }
+      })
+});
