@@ -31,6 +31,26 @@ $('.hero-right-slider').slick({
   });
   
 
+// client carousel
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+   autoplay:true,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+
 
 // latest-project-slider
 $(document).ready(function(){
@@ -58,22 +78,6 @@ $(document).ready(function(){
 });
 
 
-// client slider
-
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  grid: {
-    rows: 3,
-  },
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-
-});
-
-
 // testimonial slider
 $(document).ready(function(){
     $('.testimonial-slider').owlCarousel({
@@ -98,3 +102,17 @@ $(document).ready(function(){
         }
       })
 });
+
+
+// data aos
+
+
+
+
+
+//init Masonry
+var $grid = $('.grid').masonry({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    columnWidth: '.grid-sizer'
+  });
