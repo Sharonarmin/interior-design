@@ -531,6 +531,19 @@
         );
     </script>
     <!-- counter end -->
+
+
+<!-- masionary -->
+<script>
+
+    var $grid = $('.grid').masonry({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        columnWidth: '.grid-sizer'
+    });
+
+</script>
+
 </body>
 </html>
 

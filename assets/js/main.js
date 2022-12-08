@@ -32,11 +32,11 @@ $('.hero-right-slider').slick({
   
 
 // client carousel
-$('.owl-carousel').owlCarousel({
+$('.client-slider').owlCarousel({
     loop:true,
     margin:10,
    autoplay:true,
-    nav:true,
+    nav:false,
     responsive:{
         0:{
             items:1
@@ -104,15 +104,32 @@ $(document).ready(function(){
 });
 
 
-// data aos
+// interior slider 
+
+$(document).ready(function(){
+    $('.interior-design-slider').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:true,
+        dots:true,
+        autoplay:false,
+        navText: ["<i class='fa-solid fa-chevron-left'></i>", "<i class='fa-solid fa-chevron-right'></i>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1300:{
+                items:1
+            },
+            1500:{
+                items:1
+            }
+        }
+      })
+});
 
 
 
-
-
-//init Masonry
-var $grid = $('.grid').masonry({
-    itemSelector: '.grid-item',
-    percentPosition: true,
-    columnWidth: '.grid-sizer'
-  });
