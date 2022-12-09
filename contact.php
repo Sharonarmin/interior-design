@@ -53,10 +53,10 @@
     <div class="contact-form-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-12">
+                <div class="col-lg-4 col-md-12 col-12 order-lg-1 order-md-2 order-2">
                     <div class="contact-detail-box">
-                        <h4>Contact Info</h4>
-                        <p class="main-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+                        <h4 class="mb-4">Contact Info</h4>
+                        <p class="main-para mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
                             similique dolore accusantium.</p>
                         <div class="location-dtls mt-md-3">
                             <i class="fa-solid fa-location-dot"></i>
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8 col-12">
+                <div class="col-lg-8 col-md-12 col-12 order-lg-2 order-md-1 order-1 mb-lg-0 mb-md-5 mb-5">
                     <div class="contact-form-box">
                         <h6>Get in touch with us</h6>
                         <h3 class="main-head black-col mb-md-3 mb-2">Fill the form and send your query</h3>

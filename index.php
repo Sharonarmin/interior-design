@@ -22,22 +22,51 @@
 
 </head>
 <body>
-    <div class="main">
+
+    <div class="loader">
+        <div class="lds-ripple"><div></div><div></div></div>
+    </div>
+
+
+
+    <div class="main" id="CONT-GEN">
     <!-- header -->
     <?php include 'inc/header.php';?>
     <!-- header end -->
 
     <!-- hero -->
 
+    <div class="cont-cursor">
+			<div class="box-cursor">
+				<div class="cond-cursor">
+          
+					<svg id="SVG" class="-cursor">
+            <line x1="0" y1="0" x2="50%" y2="50%" stroke="#555" stroke-width="0.8"></line>
+            <line x1="0" y1="100%" x2="50%" y2="50%" stroke="#555" stroke-width="0.8"></line>
+            <line x1="100%" y1="100%" x2="50%" y2="50%" stroke="#555" stroke-width="0.8"></line>
+            <line x1="100%" y1="0" x2="50%" y2="50%" stroke="#555" stroke-width="0.8"></line>
+            <circle cx="50%" cy="50%" r="5" stroke="black" stroke-width="2" fill="#d6d6d6" id="mouse"></circle>
+           </svg>
+          
+				</div>
+			</div>
+		</div>
+
+
+
         <div class="hero-section">
-            <div class="container">
+
+
+
+
+            <div class="container hero-head---section">
                 <div class="row">
                     <div class="col-md-7 col-12 d-flex align-items-center">
                         <div class="hero-head-section">
-                            <p class="sm-hero-head"><span>I</span>nterior <span>D</span>esign</p>
-                            <h3 >Explore <span>Interior</span><br> Design</h3>
-                            <p class="desc">Architecture is basically a container of something. I hope they will enjoy not so much the teacup, but the tea.</p>
-                            <a href="#" class="hero-btn">Explore More</a>
+                            <p class="sm-hero-head">AL KUFOUF</p>
+                            <h3 >WE ARE SPECIALIZED <span>INTERIOR DESIGN</span> FIRM BASED IN DUBAI</h3>
+                            <p class="desc">Al kufouf Decoration Fit-out contracting company ,Managed by a team of highly qualified and well experienced professionals, in the respective fields.</p>
+                            <a href="#" class="hero-btn bn632-hover bn20">Explore More</a>
                         </div>
                     </div>
                     <div class="col-md-5 col-12">
@@ -111,7 +140,7 @@
             <div class="gray-box-1"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 col-12">
+                    <div class="col-lg-4 col-md-12 col-12 latest--project">
                         <h3 class="main-head mt-md-5 mt-3">Our Latest Projects</h3>
                         <p class="main-para mt-md-5 mt-3">Lorem ipsum dolor sit amet consectetur. Dictum justo faucibus pulvinar pulvinar purus donec id tristique.
                         Vulputate amet arcu sed in facilisis. Lorem ipsum dolor sit amet consectetur. Dictum justo faucibus pulvinar
@@ -255,7 +284,7 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="service-cards">
                             <img class="icon" src="assets/images/service-card/service-1.png" alt="">
-                            <h4 class="head">Resedential Design</h4>
+                            <h4 class="head">Civil Works</h4>
                             <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
                             Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
                         </div>
@@ -263,7 +292,7 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="service-cards">
                             <img class="icon" src="assets/images/service-card/service-2.png" alt="">
-                            <h4 class="head">Restaurant Design</h4>
+                            <h4 class="head">Gypsum Works</h4>
                             <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
                             Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
                         </div>
@@ -271,7 +300,7 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="service-cards">
                             <img class="icon" src="assets/images/service-card/service-3.png" alt="">
-                            <h4 class="head">Corporate Design</h4>
+                            <h4 class="head">Glass Works</h4>
                             <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
                             Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
                         </div>
@@ -279,7 +308,7 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="service-cards">
                             <img class="icon" src="assets/images/service-card/service-4.png" alt="">
-                            <h4 class="head">Commercial Design</h4>
+                            <h4 class="head">Joinery Works</h4>
                             <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
                             Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
                         </div>
@@ -287,7 +316,31 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="service-cards">
                             <img class="icon" src="assets/images/service-card/service-5.png" alt="">
-                            <h4 class="head">Industrial Design</h4>
+                            <h4 class="head">Walls & Windows</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <h4 class="head">Flooring</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <h4 class="head">Electrical Works</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <h4 class="head">IT Works</h4>
                             <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
                             Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
                         </div>
@@ -501,6 +554,8 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- owl carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <!-- slick -->
@@ -516,8 +571,11 @@
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <!-- counter -->
     <script src="assets/js/jquery.countup.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
+
 
 
 
@@ -532,17 +590,25 @@
     </script>
     <!-- counter end -->
 
+    <!-- aos start -->
 
-<!-- masionary -->
-<script>
+        <script>
+            AOS.init();
+        </script>
 
-    var $grid = $('.grid').masonry({
-        itemSelector: '.grid-item',
-        percentPosition: true,
-        columnWidth: '.grid-sizer'
-    });
+    <!-- aos end -->
 
-</script>
+    <!-- masionary start -->
+
+        <script>
+            var $grid = $('.grid').masonry({
+                itemSelector: '.grid-item',
+                percentPosition: true,
+                columnWidth: '.grid-sizer'
+            });
+        </script>
+
+    <!-- masionary end -->
 
 </body>
 </html>

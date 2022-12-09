@@ -1,3 +1,46 @@
+// loader
+$(document).ready(function(){
+    setTimeout(()=> {
+        $('.loader').remove();
+    } , 1200); // after 8 sec it will remove.
+  });
+
+  
+  $(document).ready(function() {
+    var fill = "#d6d6d6";
+    var stroke = "black";
+    var radio = 5;
+    $("body").mousemove(function(e) {
+      mouseX = e.pageX;
+      mouseY = e.pageY;
+      render();
+    });
+  
+    $("body").mousedown(function(e){
+      radio = 7;
+      fill = "black";
+      stroke = "#d6d6d6";
+      render();
+    });
+    $("body").mouseup(function(e){
+      fill = "#d6d6d6";
+      stroke = "black";
+      radio = 5;
+      render();
+    });
+  
+    function render(){
+      document.getElementById("SVG").innerHTML = 
+        '<line x1="0" y1="0" x2="'+mouseX+'" y2="'+mouseY+'" stroke="#555" stroke-width="0.8"></line>'+
+        '<line x1="0" y1="100%" x2="'+mouseX+'" y2="'+mouseY+'" stroke="#555" stroke-width="0.8"></line>'+
+        '<line x1="100%" y1="100%" x2="'+mouseX+'" y2="'+mouseY+'" stroke="#555" stroke-width="0.8"></line>'+
+        '<line x1="100%" y1="0" x2="'+mouseX+'" y2="'+mouseY+'" stroke="#555" stroke-width="0.8"></line>'+
+        '<circle cx="'+mouseX+'" cy="'+mouseY+'" r="'+radio+'" stroke="'+stroke+'" stroke-width="2" fill="'+fill+'" id="mouse"/>'
+    };
+  });
+
+  
+
 //hero slider
 $('.hero-right-slider').slick({
     infinite: true,

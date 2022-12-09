@@ -5,11 +5,11 @@
             <img src="assets/images/logo/ftr-Interior Design.png" alt="">
         </div>
         <div class="ftr-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact Us</a>
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="services.php">Services</a>
+            <a href="projects.php">Projects</a>
+            <a href="contact.php">Contact Us</a>
         </div>
         <div class="ftr-location">
             <i class="fa-solid fa-location-dot"></i>
