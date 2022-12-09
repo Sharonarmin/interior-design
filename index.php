@@ -17,16 +17,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!-- fancy box -->
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css"/>
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 <body>
-
-    <div class="loader">
-        <div class="lds-ripple"><div></div><div></div></div>
-    </div>
-
 
 
     <div class="main" id="CONT-GEN">
@@ -61,15 +58,15 @@
 
             <div class="container hero-head---section">
                 <div class="row">
-                    <div class="col-md-7 col-12 d-flex align-items-center">
+                    <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                         <div class="hero-head-section">
-                            <p class="sm-hero-head">AL KUFOUF</p>
-                            <h3 >WE ARE SPECIALIZED <span>INTERIOR DESIGN</span> FIRM BASED IN DUBAI</h3>
+                            <p class="sm-hero-head" data-aos="fade-right" data-aos-duration="1700" data-aos-delay="700">AL KUFOUF</p>
+                            <h3  data-aos="fade-up" data-aos-duration="1900" data-aos-delay="900">WE ARE SPECIALIZED <span>INTERIOR DESIGN</span> FIRM BASED IN DUBAI</h3>
                             <p class="desc">Al kufouf Decoration Fit-out contracting company ,Managed by a team of highly qualified and well experienced professionals, in the respective fields.</p>
-                            <a href="#" class="hero-btn bn632-hover bn20">Explore More</a>
+                            <a href="#" class="hero-btn bn632-hover bn20" >Explore More</a>
                         </div>
                     </div>
-                    <div class="col-md-5 col-12">
+                    <div class="col-lg-5 col-md-12 col-12">
                         <div class="hero-right-slider">
                             <div class="hero-slider">
                                 <div class="d-flex justify-content-center align-items-center">
@@ -105,7 +102,7 @@
                 <div class="col-lg-6 col-md-12 col-12 about-img-div">
                     <img src="assets/images/about.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-6 col-md-12 col-12 about-desc-sec">
+                <div class="col-lg-6 col-md-12 col-12 about-desc-sec" data-aos="fade-left" data-aos-duration="1500">
                     <div class="about-right">
                         <h3 class="main-head">About Us</h3>
                         <p class="main-para">Lorem ipsum dolor sit amet consectetur. Dictum justo faucibus pulvinar pulvinar purus donec id tristique.
@@ -134,13 +131,95 @@
 
     <!-- about section end -->
 
-    <!-- latest project section -->
+    <!-- our service section start -->
+    <div class="service-section">
+            <div class="gray-box-3"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-12 service-head-div" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="main-head mt-md-3 mt-3">Our Services</h3>
+                        <p class="main-para pe-3" >Lorem ipsum dolor sit amet consectetur. Gravida semper quam euismod cras commodo faucibus ac tincidunt. Tincidunt tincidunt dignissim felis integer proin vel enim massa.</p>
+                        <div class="mt-md-5 mt-3">
+                            <a href="" class="btn-read-more bn632-hover bn20">View All</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-1.png" alt="">
+                            <h4 class="head">Civil Works</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-2.png" alt="">
+                            <h4 class="head">Gypsum Works</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-3.png" alt="">
+                            <h4 class="head">Glass Works</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-4.png" alt="">
+                            <h4 class="head">Joinery Works</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <h4 class="head">Walls & Windows</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <h4 class="head">Flooring</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <h4 class="head">Electrical Works</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="service-cards">
+                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <h4 class="head">IT Works</h4>
+                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
+                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- our service section end -->
+
+
+        <!-- latest project section -->
 
         <div class="latest-projects-section">
             <div class="gray-box-1"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 col-12 latest--project">
+                    <div class="col-lg-4 col-md-12 col-12 latest--project"  data-aos="fade-right" data-aos-duration="1500">
                         <h3 class="main-head mt-md-5 mt-3">Our Latest Projects</h3>
                         <p class="main-para mt-md-5 mt-3">Lorem ipsum dolor sit amet consectetur. Dictum justo faucibus pulvinar pulvinar purus donec id tristique.
                         Vulputate amet arcu sed in facilisis. Lorem ipsum dolor sit amet consectetur. Dictum justo faucibus pulvinar
@@ -191,15 +270,16 @@
     <!-- latest project section end -->
 
 
+
     <!-- client section start -->
 
         <div class="client-section">
             <div class="gray-box-2"></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-12">
+                        <div class="col-lg-4 col-md-12" data-aos="fade-right" data-aos-duration="1500">
                             <h3 class="main-head mt-md-5 mt-3">We work with the Best Partners</h3>
-                            <p class="main-para mt-md-5 mt-3">Lorem ipsum dolor sit amet consectetur. Ut consectetur donec nisl sed. Augue arcu nisl cursus penatibus scelerisque. Augue fringilla aliquet nunc auctor.
+                            <p class="main-para mt-md-5 mt-3" >Lorem ipsum dolor sit amet consectetur. Ut consectetur donec nisl sed. Augue arcu nisl cursus penatibus scelerisque. Augue fringilla aliquet nunc auctor.
                              Quis nec mattis amet libero in condimentum vivamus.</p>
                              <div class="mt-md-5 mt-3">
                                 <a href="" class="btn-read-more bn632-hover bn20">View All</a>
@@ -267,88 +347,6 @@
         </div>
 
     <!-- client section end -->
-
-
-    <!-- our service section start -->
-        <div class="service-section">
-            <div class="gray-box-3"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 col-12 service-head-div">
-                        <h3 class="main-head mt-md-3 mt-3">Our Services</h3>
-                        <p class="main-para pe-3" >Lorem ipsum dolor sit amet consectetur. Gravida semper quam euismod cras commodo faucibus ac tincidunt. Tincidunt tincidunt dignissim felis integer proin vel enim massa.</p>
-                        <div class="mt-md-5 mt-3">
-                            <a href="" class="btn-read-more bn632-hover bn20">View All</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-1.png" alt="">
-                            <h4 class="head">Civil Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-2.png" alt="">
-                            <h4 class="head">Gypsum Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-3.png" alt="">
-                            <h4 class="head">Glass Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-4.png" alt="">
-                            <h4 class="head">Joinery Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
-                            <h4 class="head">Walls & Windows</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
-                            <h4 class="head">Flooring</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
-                            <h4 class="head">Electrical Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
-                            <h4 class="head">IT Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!-- our service section end -->
 
 
     <!-- testimonial section start  -->

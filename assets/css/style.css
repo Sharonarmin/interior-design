@@ -283,8 +283,8 @@ p{
 
     .hero-head-section h3{
         font-weight: 600;
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 50px;
+        line-height: 60px;
         margin-bottom: 10px;
     }
 
@@ -292,22 +292,29 @@ p{
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 20px;
-        width: 85%;
+        width: 95%;
     }
     
-    .hero-head-section .hero-btn{
+    /* .hero-head-section .hero-btn{
         background: var(--secondary-col);
         color: var(--white-col);
         padding: 10px 25px;
         display: inline-block;
-    }
+    } */
     
 }
 
-@media only screen and (max-width:999px){
-    .hero-section{
-        height: auto;
+
+@media only screen and (max-width:1199px){
+    .hero-head-section h3{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 10px;
     }
+}
+
+@media only screen and (max-width:999px){
     .hero-slider {
         margin-top: 50px;
     }
@@ -339,12 +346,24 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 30%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -40%);
     }
     .main{
         height: 140vh;
+    }
+    .hero-head-section h3{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .main{
+        height: 170vh;
     }
 }
 
@@ -354,8 +373,9 @@ p{
 /* about section */
 
 .about-section{
-    background-color: var(--primary-col);
+    background-color: #101010;
     padding: 100px 10px 0;
+    overflow-x: hidden;
 }
 
 
@@ -508,7 +528,7 @@ p{
 
   .latest-projects-section{
     padding: 100px 10px;
-    background-color: var(--primary-col);
+    background-color: #101010;
     position: relative;
     overflow-x: hidden;
   }
@@ -630,7 +650,8 @@ p{
 .client-section{
     padding: 100px 10px;
     position: relative;
-    background-color: #101010;
+    background-color: var(--primary-col);
+
 }
 
 .gray-box-2{
@@ -1036,7 +1057,7 @@ footer{
 }
 
 .ftr-log img{
-    width: 200px;
+    width: 220px;
     height: auto;
 }
 

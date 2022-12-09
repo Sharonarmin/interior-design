@@ -2,7 +2,7 @@
 <footer>
     <div class="container">
         <div class="ftr-log">
-            <img src="assets/images/logo/ftr-Interior Design.png" alt="">
+            <img  src="assets/images/logo/Al kufouf Logo-02.png" alt="">
         </div>
         <div class="ftr-links">
             <a href="index.php">Home</a>
@@ -21,8 +21,8 @@
             <a href="#">+91 9976005430</a>
         </div>
         <div class="ftr-sm-icons">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" data-aos="fade-up"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"  data-aos="fade-up"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
@@ -35,3 +35,9 @@
     </div>
 </footer>
 <!-- footer section end -->
+
+
+
+    <div class="loader">
+        <div class="lds-ripple"><div></div><div></div></div>
+    </div>
