@@ -21,10 +21,10 @@
             <a href="#">+91 9976005430</a>
         </div>
         <div class="ftr-sm-icons">
-            <a href="#" data-aos="fade-up"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"  data-aos="fade-up"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" data-aos="fade-up" data-aos-duration="400"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"  data-aos="fade-up" data-aos-duration="600"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"  data-aos="fade-up" data-aos-duration="800"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" data-aos="fade-up" data-aos-duration="1000"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </div>
 

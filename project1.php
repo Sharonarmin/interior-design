@@ -144,6 +144,8 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- owl carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <!-- slick -->

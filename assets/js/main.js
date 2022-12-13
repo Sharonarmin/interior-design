@@ -137,10 +137,10 @@ $(document).ready(function(){
                 items:1.5
             },
             1300:{
-                items:3.5
+                items:2.5
             },
             1500:{
-                items:3.5
+                items:2.5
             }
         }
       })

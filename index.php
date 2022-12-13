@@ -100,16 +100,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-12 about-img-div">
-                    <img src="assets/images/about.png" class="img-fluid" alt="">
+                    <img src="assets/images/about.png" class=" about--img" alt="">
                 </div>
                 <div class="col-lg-6 col-md-12 col-12 about-desc-sec" data-aos="fade-left" data-aos-duration="1500">
                     <div class="about-right">
                         <h3 class="main-head">About Us</h3>
-                        <p class="main-para">Lorem ipsum dolor sit amet consectetur. Dictum justo faucibus pulvinar pulvinar purus donec id tristique.
-                             Vulputate amet arcu sed in facilisis. Lorem ipsum dolor sit amet consectetur. Dictum justo faucibus pulvinar
-                              pulvinar purus donec id tristique. Vulputate amet arcu sed in facilisis.</p>
-                          <p class="main-para">Lorem ipsum dolor sit amet consectetur. Dictum justo faucibus pulvinar pulvinar purus donec id tristique.
-                         Vulputate amet arcu sed in facilisis. Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="main-para">At Al Kufouf, we provide our clients with outstanding services from the stage of Conceptualization to Completion of the project. It is important to understand that there are several steps that need to be undertaken in order to successfully complete a given project. 
+                            We not only ensure taking care of your designs and fit out but everything that needs to be fulfilled along with it.Al kufouf Interior Decoration is one of the leading Interior Design & Fit-out Contracting Company in Dubai with an exceptional reputation for providing innovative,
+                             quality and extraordinary designs and services. We cater all interior design and fit-out solutions as a commercial, Residential, Hospitality Restaurant, Office, Joinery, Beauty Salon and Spa, Retail and Health clinic.</p>
                         <div class="counter-interior mt-3">
                                 <div class="me-4">
                                     <div class="counter-div"><span class="counter">123</span>+</div>
@@ -140,71 +138,110 @@
                         <h3 class="main-head mt-md-3 mt-3">Our Services</h3>
                         <p class="main-para pe-3" >Lorem ipsum dolor sit amet consectetur. Gravida semper quam euismod cras commodo faucibus ac tincidunt. Tincidunt tincidunt dignissim felis integer proin vel enim massa.</p>
                         <div class="mt-md-5 mt-3">
-                            <a href="" class="btn-read-more bn632-hover bn20">View All</a>
+                            <a href="services.php" class="btn-read-more bn632-hover bn20">View All</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-cards">
                             <img class="icon" src="assets/images/service-card/service-1.png" alt="">
                             <h4 class="head">Civil Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                            <ul style="padding-left:5px;">
+                                <li class="card-para">Internal Block Works</li>
+                                <li class="card-para">Plastering</li>
+                                <li class="card-para">Screed</li>
+                                <li class="card-para">Strong Room</li>
+                            </ul>
+                            <a href="services.php" class="card-view-more-btn">View More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-2.png" alt="">
+                            <img class="icon" src="assets/images/service-card/gypsum.png" alt="">
                             <h4 class="head">Gypsum Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                            <ul style="padding-left:5px;">
+                                <li class="card-para">Partitions - with  MR/FR boards, sound insulations</li>
+                                <li class="card-para">Wall Paneling</li>
+                                <li class="card-para">Plain ceiling with differential heights</li>
+                                <li class="card-para">Bulk heads</li>
+                            </ul>
+                            <a href="services.php" class="card-view-more-btn">View More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-3.png" alt="">
+                            <img class="icon" src="assets/images/service-card/glass.png" alt="">
                             <h4 class="head">Glass Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                            <ul style="padding-left:5px;">
+                                <li class="card-para">Single glazing or double glazing partitions</li>
+                                <li class="card-para">Demountable Partitions</li>
+                                <li class="card-para">Glass flooring or ceiling works</li>
+                                <li class="card-para">Laminating</li>
+                            </ul>
+                            <a href="services.php" class="card-view-more-btn">View More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-4.png" alt="">
+                            <img class="icon" src="assets/images/service-card/joinery-works.png" alt="">
                             <h4 class="head">Joinery Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                            <ul style="padding-left:5px;">
+                                <li class="card-para">Custom made furniture with high quality finishes such as Pu, Polyster, etc .</li>
+                                <li class="card-para">Kitchen Cabintes</li>
+                                <li class="card-para">Display Cabinets</li>
+                                <li class="card-para">Decorative Doors</li>
+                            </ul>
+                            <a href="services.php" class="card-view-more-btn">View More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <img class="icon" src="assets/images/service-card/window.png" alt="">
                             <h4 class="head">Walls & Windows</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                            <ul style="padding-left:5px;">
+                                <li class="card-para">Emulsion Paint, fenomastic, stucco and other decorative paints</li>
+                                <li class="card-para">Wall paper:paper/vinyl backed</li>
+                                <li class="card-para">Mural Surface texture</li>
+                                <li class="card-para">Designer films for glass partitions and doors</li>
+                            </ul>
+                            <a href="services.php" class="card-view-more-btn">View More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <img class="icon" src="assets/images/service-card/flooring.png" alt="">
                             <h4 class="head">Flooring</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                            <ul style="padding-left:5px;">
+                                <li class="card-para">Carpet - Tiles,Roll Carpets, Rugs and Entrance mat</li>
+                                <li class="card-para">Wooden flooring - Solid/Pre-Engineered wood and Laminate parquet</li>
+                                <li class="card-para">Resilent flooring - Vinyl, PVS, Linoleum and rubber flooring</li>
+                            </ul>
+                            <a href="services.php" class="card-view-more-btn">View More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
+                            <img class="icon" src="assets/images/service-card/electrical-works.png" alt="">
                             <h4 class="head">Electrical Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                            <ul style="padding-left:5px;">
+                                <li class="card-para">Lighting: LCD, Halogen, Metal Halide, T5</li>
+                                <li class="card-para">Power points/isolators</li>
+                                <li class="card-para">Upgrading or installing new DB, SMDB, MDB, Bus bar riser</li>
+                                <li class="card-para">UPS, Generators</li>
+                            </ul>
+                            <a href="services.php" class="card-view-more-btn">View More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-up" data-aos-duration="1000">
                         <div class="service-cards">
-                            <img class="icon" src="assets/images/service-card/service-5.png" alt="">
-                            <h4 class="head">IT Works</h4>
-                            <p class="card-para">Lorem ipsum dolorsit amet consectetur. Nisi vitae euismod fames sit lectus dolor ac.lorem giuty t vbhgbbbvsfvsfvsv  eava
-                            Lorem ipsum dolor sitamet consectetur. Nisi vitae euismod fames sit lectus dolor ac. Odio in ac hac ante. vsvsvs</p>
+                            <img class="icon" src="assets/images/service-card/fire-alarm.png" alt="">
+                            <h4 class="head">Fire Fighting & Alarm</h4>
+                            <ul style="padding-left:5px;">
+                                <li class="card-para">Sprinkler works</li>
+                                <li class="card-para">Smoke detectors, heat sensors</li>
+                                <li class="card-para">Fire alarm panels</li>
+                                <li class="card-para">Fire extinguishing systems </li>
+                            </ul>
+                            <a href="services.php" class="card-view-more-btn button-50">View More</a>
                         </div>
                     </div>
                 </div>

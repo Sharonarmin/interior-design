@@ -53,11 +53,13 @@
                     <div class="about-content">
                         <h6>Interior Design Company</h6>
                         <h3 class="main-head  black-col">Explore Interior Design</h3>
-                        <p class="main-para-black mt-md-4 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta beatae pariatur ex, ea tenetur, sit numquam fugit, 
-                            nesciunt rerum dignissimos dicta iste deleniti neque facere illo magnam consectetur nemo praesentium!
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta beatae pariatur ex, ea tenetur, sit numquam fugit, 
-                            nesciunt rerum dignissimos dicta iste deleniti neque facere illo magnam consectetur nemo praesentium!</p>
-
+                        <p class="main-para-black mt-md-4 mt-2">At Al Kufouf, we provide our clients with outstanding services from the stage of Conceptualization to Completion of the project. It is important to understand that there are several
+                         steps that need to be undertaken in order to successfully complete a given project. We not only ensure taking care of your designs and fit out but everything that needs to be fulfilled along with it.Al kufouf Interior Decoration 
+                         is one of the leading Interior Design & Fit-out Contracting Company in Dubai with an exceptional reputation for providing innovative, quality and extraordinary designs and services. We cater all interior design and fit-out solutions
+                         as a commercial, Residential, Hospitality Restaurant, Office, Joinery, Beauty Salon and Spa, Retail and Health clinic.</p>
+                        <p> From project planning and design to project execution and government authority clearances, we provide hassle-free turnkey solutions to our clients.
+                            We can manage every part of any Interior Fit-out project, eliminating the need for you to rush around looking for different materials or suppliers for your project.
+                        </p>
                             <div class="progress-sections">
                                 <div class="progress-box">
                                     <p class="progress-head">Designs</p>
@@ -86,7 +88,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
                     <div class="about-pg-right">
                         <img class="img-fluid" src="assets/images/banner/about-pg-right.png" alt="">
                     </div>
@@ -305,6 +307,8 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- owl carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <!-- slick -->

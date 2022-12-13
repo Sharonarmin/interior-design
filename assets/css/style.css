@@ -332,13 +332,13 @@ p{
         display: none;
     }
 
-    .main{
-        height: 60vh;
-    }
+
 
     .latest--project{
         padding: 10px 40px;
     }
+
+
 }
 @media only screen and (max-width:767px){
     .hero-section{
@@ -351,13 +351,19 @@ p{
         transform: translate(-50%, -40%);
     }
     .main{
-        height: 140vh;
+        height: 130vh;
     }
     .hero-head-section h3{
         font-weight: 600;
         font-size: 28px;
         line-height: 38px;
         margin-bottom: 10px;
+    }
+    .hero-head-section .desc{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        width: 95%;
     }
 }
 
@@ -374,7 +380,7 @@ p{
 
 .about-section{
     background-color: #101010;
-    padding: 100px 10px 0;
+    padding: 100px 10px 100px;
     overflow-x: hidden;
 }
 
@@ -412,7 +418,7 @@ p{
 
 
 .about-right{
-    padding: 40px 30px;
+    padding: 30px 30px;
     background-color: #222121;
 }
 
@@ -503,6 +509,7 @@ p{
 
 .about-img-div{
     padding: 0;
+    overflow: hidden;
 }
 
 
@@ -709,6 +716,7 @@ p{
     background-color: var(--secondary-col);
     margin: 10px 0;
     position: relative;
+    width: 100%;
 }
 
 
@@ -1859,104 +1867,44 @@ footer{
     text-align: center;
   }
 
-  .pg-service-cards{
-    width: 100%;
+.pg-service-cards{
+    background-color: var(--primary-col);
+    padding: 40px 30px;
+    margin: 20px 0;
+}
+
+.white-bg-card{
+    background-color: var(--primary-col);
     padding: 20px 10px;
-    margin: 10px;
+    position: relative;
+    transition: all .5s ease-in-out;
     overflow: hidden;
+    color: var(--white-col);
+}
 
-  }
-
-  .pg-service-cards img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    position: relative;
-  }
-
-
-
-
-  .pg-service-cards .img-div{
-    position: relative;
-  }
-
-  .pg-service-cards .img-div::after{
-    content: '';
-    display: block;
+/* .black-card-bg{
     position: absolute;
-    left: 0;
-    top: 0;
+    bottom: -110%;
+    right: -110%;
     width: 100%;
     height: 100%;
-    background-color: #100e0e52;
-
-  }
-
-  .center-icon{
-    position: absolute;
-    left: 50%;
-    top: 42%;
-    transform: translate(-50%,-50%);
+    background-color: #000;
+    transition: all 1s ease-in-out;
     z-index: 11;
-    transition: all 1.3s ease-in-out;
-  }
+}
+.pg-service-cards:hover .white-bg-card{
+    color: var(--white-col);
 
-
-.btn-center-icon{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 11;
-    transition: all 1.3s ease-in-out;
-    top: -100px;
 }
 
-.pg-service-cards .img-div .btn-center-icon a{
-    padding: 10px 30px;
-    border-radius: 7px;
-}
+.pg-service-cards:hover .black-card-bg{
+    position: absolute;
+    bottom: -0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+} */
 
-
-  .center-icon img{
-    width: 80px;
-    height: auto;
-
-  }
-
-
-  .inner-card{
-    width: 90%;
-    background-color: var(--white-col);
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-    margin-top: -80px;
-    z-index: 11;
-    padding: 35px 20px;
-  }
-
-  .inner-card h5{
-    text-align: center;
-  }
-
-  .inner-card p{
-    font-size: 16px;
-    line-height: 26px;
-    color: gray;
-    margin-top: 30px;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
-  }
-
-  .pg-service-cards:hover .center-icon{
-    left: -200px;
-  }
-
-  .pg-service-cards:hover:hover .btn-center-icon{
-    left: 50%;
-    top: 48%;
-  }
 
 
 
@@ -1979,6 +1927,7 @@ footer{
   #CONT-GEN{
     position: relative;
     overflow-x: hidden !important;
+    overflow-y: hidden;
   }
 
   #SVG{
@@ -1986,3 +1935,59 @@ footer{
     height: 100vh;
     overflow-x: hidden;
   }
+
+
+
+
+
+  /* card button */
+
+.card-view-more-btn{
+    color: var(--white-col);
+    display: inline-block;
+    position: relative;
+}
+
+.card-view-more-btn:hover{
+    color: var(--white-col);
+
+}
+
+.card-view-more-btn::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 2px;
+    background: var(--white-col);
+    transition: width .3s;
+}
+.card-view-more-btn:hover::after {
+    width: 100%;
+}
+
+
+/* about img */
+
+@media only screen and (max-width:999px){
+    .about--img{
+        height: 104%;
+        object-fit: cover;
+        margin-top: -2%;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .about--img{
+        height: auto;
+        object-fit: contain;
+        max-width: 100%;
+        margin-top: -2%;
+    }
+}
+
+
+
+
+
+
+

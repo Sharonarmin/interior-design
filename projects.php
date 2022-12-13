@@ -288,6 +288,8 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <!-- owl carousel -->
